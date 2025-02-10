@@ -36,8 +36,8 @@ The computation is distributed across multiple processes in two distinct groups:
 ## Requirements
 - C++ compiler with MPI support (e.g., `mpic++`)
 - MPI library (e.g., OpenMPI)
-- `make` utility (if you create a Makefile for compilation)
-
+- `make` utility
+  
 ## Implementation Details
 The implementation follows these steps:
 1. **Process Grouping**: The processes are split into two groups:
