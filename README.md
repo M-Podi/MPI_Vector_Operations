@@ -19,7 +19,7 @@ Where:
 - `A` is an `N × N` matrix.
 
 
-The vectors \(x\) and \(y\) are stored in `x.dat` and `y.dat` files, and the matrix \(A\) is stored in `mat.dat`.
+The vectors `x` and `y` are stored in `x.dat` and `y.dat` files, and the matrix \(A\) is stored in `mat.dat`.
 
 The computation is distributed across multiple processes in two distinct groups:
 1. **Low Group**: Calculates the denominator of the expression.
