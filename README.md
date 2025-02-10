@@ -12,11 +12,12 @@
 ## Introduction
 This project implements a parallel computation using MPI (Message Passing Interface) to calculate the following expression:
 
-\[ \text{AVG} = \frac{\sum_{i,j} x_i A_{ij} y_j}{\sum_i x_i y_i} \]
+**AVG = (Σᵢⱼ xᵢ Aᵢⱼ yⱼ) / (Σᵢ xᵢ yᵢ)**
 
 Where:
-- \(x\) and \(y\) are vectors of size \(N = 200\).
-- \(A\) is an \(N \times N\) matrix.
+- `x` and `y` are vectors of size `N = 200`.
+- `A` is an `N × N` matrix.
+
 
 The vectors \(x\) and \(y\) are stored in `x.dat` and `y.dat` files, and the matrix \(A\) is stored in `mat.dat`.
 
